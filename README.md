@@ -1,5 +1,8 @@
 [![pipeline status](https://gitlab.linphone.org/BC/public/linphone-desktop/badges/master/pipeline.svg)](https://gitlab.linphone.org/BC/public/linphone-desktop/commits/master)
 
+# IMPORTANT
+This fork of Linphone contains modifications for a custom SIP server. Use https://github.com/BelledonneCommunications/linphone-desktop instead.
+
 # Linphone Desktop
 
 Linphone is an open source softphone for voice and video over IP calling and instant messaging.
