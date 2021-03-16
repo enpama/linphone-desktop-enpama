@@ -92,6 +92,22 @@
         <source>about</source>
         <translation>关于</translation>
     </message>
+    <message>
+        <source>commandLineOptionFetchConfig</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionFetchConfigArg</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCall</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCallArg</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AssistantAbstractView</name>
@@ -472,6 +488,10 @@
     <message>
         <source>joinConferenceAsFunctionDescription</source>
         <translation>以访客身份加入此 SIP 地址创建的会议。如果你未连接到代理，请参阅“加入会议”</translation>
+    </message>
+    <message>
+        <source>byeFunctionDescription</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

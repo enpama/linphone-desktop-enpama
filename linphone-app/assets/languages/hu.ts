@@ -92,6 +92,22 @@
         <source>about</source>
         <translation>A Linphone névjegye</translation>
     </message>
+    <message>
+        <source>commandLineOptionFetchConfig</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionFetchConfigArg</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCall</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCallArg</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AssistantAbstractView</name>
@@ -472,6 +488,10 @@ A kiszolgáló URL-je nincs konfigurálva.</translation>
     <message>
         <source>joinConferenceAsFunctionDescription</source>
         <translation>Csatlakozzon a SIP-cím által üzemeltetett konferenciához, mint a vendég-sip-cím. Ha nem csatlakozik proxy-konfigurátorhoz, olvassa el a csatlakozási konferencia részt.</translation>
+    </message>
+    <message>
+        <source>byeFunctionDescription</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -92,6 +92,22 @@
         <source>about</source>
         <translation>Apie</translation>
     </message>
+    <message>
+        <source>commandLineOptionFetchConfig</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionFetchConfigArg</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCall</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCallArg</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AssistantAbstractView</name>
@@ -472,6 +488,10 @@ Nesukonfigūruotas serverio url.</translation>
     <message>
         <source>joinConferenceAsFunctionDescription</source>
         <translation>Prisijunkite prie konferencijos, kuriai skirtas sip adresas, kaip su svečio sip adresu. Jei nesate prisijungę prie tarpinio serverio konfigūracijos, skaitykite prisijungimo konferenciją.</translation>
+    </message>
+    <message>
+        <source>byeFunctionDescription</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -92,6 +92,22 @@
         <source>about</source>
         <translation>О программе</translation>
     </message>
+    <message>
+        <source>commandLineOptionFetchConfig</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionFetchConfigArg</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCall</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCallArg</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AssistantAbstractView</name>
@@ -472,6 +488,10 @@
     <message>
         <source>joinConferenceAsFunctionDescription</source>
         <translation>Присоединитесь к конференции по sip-адресу. Если вы не подключены к конфигурации прокси, см. join-conference-as.</translation>
+    </message>
+    <message>
+        <source>byeFunctionDescription</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

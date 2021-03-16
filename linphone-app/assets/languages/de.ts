@@ -92,6 +92,22 @@
         <source>about</source>
         <translation>Über</translation>
     </message>
+    <message>
+        <source>commandLineOptionFetchConfig</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionFetchConfigArg</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCall</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCallArg</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AssistantAbstractView</name>
@@ -472,6 +488,10 @@ Server URL ist nicht konfiguriert.</translation>
     <message>
         <source>joinConferenceAsFunctionDescription</source>
         <translation>Tritt der Konferenz auf dem Host sip-address als guest-sip-address bei. Wenn Sie nicht über einen Proxy verbunden sind beachten Sie join-conference</translation>
+    </message>
+    <message>
+        <source>byeFunctionDescription</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

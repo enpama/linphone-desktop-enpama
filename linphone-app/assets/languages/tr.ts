@@ -92,6 +92,22 @@
         <source>about</source>
         <translation>Hakkında</translation>
     </message>
+    <message>
+        <source>commandLineOptionFetchConfig</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionFetchConfigArg</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCall</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCallArg</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AssistantAbstractView</name>
@@ -472,6 +488,10 @@ Sunucu url&apos;si yapılandırılmadı.</translation>
     <message>
         <source>joinConferenceAsFunctionDescription</source>
         <translation>Sip adresinin ev sahipliğindeki toplantıya misafir sip adresi ile katıl. Eğer vekil yapılandırmaya bağlandıysanız &quot;toplantıya-katıl&quot;a bakın.</translation>
+    </message>
+    <message>
+        <source>byeFunctionDescription</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

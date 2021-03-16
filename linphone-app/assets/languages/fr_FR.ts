@@ -92,6 +92,22 @@
         <source>about</source>
         <translation>À propos</translation>
     </message>
+    <message>
+        <source>commandLineOptionFetchConfig</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionFetchConfigArg</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCall</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCallArg</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AssistantAbstractView</name>
@@ -472,6 +488,10 @@ Url du serveur non configurée.</translation>
     <message>
         <source>joinConferenceAsFunctionDescription</source>
         <translation>Rejoint la conférence hébergée par la sip-address avec la guest-sip-address. Si vous n&apos;êtes pas connecté à une proxy-config, voir join-conference.</translation>
+    </message>
+    <message>
+        <source>byeFunctionDescription</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

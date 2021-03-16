@@ -52,6 +52,85 @@ Rectangle {
 
     spacing: 0
 
+    Rectangle{
+      id: dmtfArea
+      color: "black"
+      anchors.right: parent.right
+        anchors.top: parent.top
+        anchors.left: parent.left
+        anchors.margins: 5
+        height: 32
+        Layout.fillWidth: true
+      
+      GridLayout{
+        id: gridLO
+        anchors.fill: parent
+        columns: 3
+        rows: 1
+
+        TextInput{
+          layer.enabled: true
+                Layout.fillWidth: true
+              Layout.preferredHeight : 32
+                  id: entry
+                  padding: 5
+                  text: ""
+                  color: "#0cff0c"
+                  validator: RegExpValidator {
+                              regExp: RegExp(/[0-9*#\+\(\) ]+/)
+                          }
+  
+              }
+        
+
+        TextButtonB {
+            text: "Gönder"
+
+          Timer {
+              id: timer
+              function setTimeout(cb, delayTime) {
+                  timer.interval = delayTime;
+                  timer.repeat = false;
+                  timer.triggered.connect(cb);
+                  timer.triggered.connect(function release () {
+                      timer.triggered.disconnect(cb); // This is important
+                      timer.triggered.disconnect(release); // This is important as well
+                  });
+                  timer.start();
+              }
+          }
+
+            onClicked: function()
+            {
+              var length = entry.text.length;
+              var valid = ["0","1","2","3","4","5","6","7","8","9","*","#"];
+          
+              function _send(index)
+              {
+                  if(index < length){
+                    var ch = entry.text[index];
+                    if(valid.indexOf(ch) != -1){
+                      call.sendDtmf(ch);
+                    }
+                    timer.setTimeout(function(){ _send(index + 1); }, 500);
+                    
+                  }else{
+                    timer.setTimeout(function(){ entry.text = ""; }, 1000);
+                  }
+              }
+            
+              _send(0);
+            }
+        }
+        TextButtonA {
+            text:  "Temizle"
+            onClicked: function()
+            {
+              entry.text = ""
+            }
+        }
+      }
+    }
     // -------------------------------------------------------------------------
     // Call info.
     // -------------------------------------------------------------------------
@@ -62,6 +141,7 @@ Rectangle {
       Layout.fillWidth: true
       Layout.leftMargin: CallStyle.header.leftMargin
       Layout.rightMargin: CallStyle.header.rightMargin
+      Layout.topMargin: 30
       Layout.preferredHeight: CallStyle.header.contactDescription.height
 
       ActionBar {

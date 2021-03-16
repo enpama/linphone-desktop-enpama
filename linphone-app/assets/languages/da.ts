@@ -92,6 +92,22 @@
         <source>about</source>
         <translation>Om</translation>
     </message>
+    <message>
+        <source>commandLineOptionFetchConfig</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionFetchConfigArg</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCall</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCallArg</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AssistantAbstractView</name>
@@ -472,6 +488,10 @@ Server url ikke konfigureret.</translation>
     <message>
         <source>joinConferenceAsFunctionDescription</source>
         <translation>Deltag i konferencen startet af sip-adressen som har gæstens sip-adresse. Hvis du ikke er forbundet til en proxy, se &quot;deltag konferencen&quot;. </translation>
+    </message>
+    <message>
+        <source>byeFunctionDescription</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

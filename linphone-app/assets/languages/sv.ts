@@ -92,6 +92,22 @@
         <source>about</source>
         <translation>Om</translation>
     </message>
+    <message>
+        <source>commandLineOptionFetchConfig</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionFetchConfigArg</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCall</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>commandLineOptionCallArg</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AssistantAbstractView</name>
@@ -472,6 +488,10 @@ Serverwebbadressen är inte konfigurerad.</translation>
     <message>
         <source>joinConferenceAsFunctionDescription</source>
         <translation>Gå med i konferensen som sip-adressen står som värd för med gäst-sip-adress. Om du inte är ansluten till en proxy-konfiguration, see gå-med-i-konferens.</translation>
+    </message>
+    <message>
+        <source>byeFunctionDescription</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
